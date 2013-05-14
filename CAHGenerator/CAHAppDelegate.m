@@ -9,6 +9,7 @@
 #import "CAHAppDelegate.h"
 
 #import "ViewController.h"
+#import "CAHSwitchViewController.h"
 
 @implementation AppDelegate
 
@@ -18,23 +19,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    
+    CAHSwitchViewController *svc = [[CAHSwitchViewController alloc] initWithNibName:@"CAHSwitchViewController" bundle:nil];
+    self.window.rootViewController = svc;
     // Override point for customization after application launch.
     
-    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
-    
-    // Splash screen title image to fade out
-    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Title"]];
-    [[self.viewController view] addSubview:imageView];
-    [[self.viewController view] bringSubviewToFront:imageView];
-    
     [self.window makeKeyAndVisible];
-    
-    [UIView transitionWithView:self.window duration:3.0f
-                       options:UIViewAnimationOptionTransitionNone
-                    animations:^(void){imageView.alpha = 0.0f;}
-                    completion:^(BOOL finished){[imageView removeFromSuperview];} ];
     
     return YES;
 }

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D520627172F28F200504D47 /* CAHSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D520625172F28F200504D47 /* CAHSwitchViewController.m */; };
+		2D520628172F28F200504D47 /* CAHSwitchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D520626172F28F200504D47 /* CAHSwitchViewController.xib */; };
+		2D52062D172F33D400504D47 /* CAHTitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D52062B172F33D400504D47 /* CAHTitleViewController.m */; };
+		2D52062E172F33D400504D47 /* CAHTitleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D52062C172F33D400504D47 /* CAHTitleViewController.xib */; };
+		2D520630172F358900504D47 /* Title-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D52062F172F358900504D47 /* Title-568h@2x.png */; };
+		2D520632172F4F2200504D47 /* CAHInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D520631172F4F2200504D47 /* CAHInfoViewController.xib */; };
+		2D520634172F526500504D47 /* BackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D520633172F526500504D47 /* BackArrow.png */; };
 		2D65576D171757DF001FCAE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D65576C171757DF001FCAE1 /* UIKit.framework */; };
 		2D65576F171757DF001FCAE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D65576E171757DF001FCAE1 /* Foundation.framework */; };
 		2D655771171757DF001FCAE1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D655770171757DF001FCAE1 /* CoreGraphics.framework */; };
@@ -18,6 +25,10 @@
 		2D655783171757DF001FCAE1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D655782171757DF001FCAE1 /* Default-568h@2x.png */; };
 		2D65578B171757FC001FCAE1 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D655789171757FC001FCAE1 /* Icon.png */; };
 		2D65578C171757FC001FCAE1 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D65578A171757FC001FCAE1 /* Icon@2x.png */; };
+		2D7836B61718C6A2008DA0EF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2D7836B51718C6A2008DA0EF /* .gitignore */; };
+		2DA0C1B51721F570001D9863 /* ViewController-5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DA0C1B41721F570001D9863 /* ViewController-5.xib */; };
+		2DA0C1B91721FE5C001D9863 /* CAHInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA0C1B71721FE5C001D9863 /* CAHInfoViewController.m */; };
+		2DA0C1BA1721FE5C001D9863 /* CAHInfoViewController-5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DA0C1B81721FE5C001D9863 /* CAHInfoViewController-5.xib */; };
 		2DAE831F17175994006E51A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6557931717585D001FCAE1 /* ViewController.m */; };
 		2DAE8320171759B1006E51A1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D6557941717585D001FCAE1 /* ViewController.xib */; };
 		2DAE8321171759CC006E51A1 /* BlackCardsSingle.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2D65578E1717585D001FCAE1 /* BlackCardsSingle.txt */; };
@@ -25,12 +36,20 @@
 		2DAE8323171759D1006E51A1 /* LogoButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D65578F1717585D001FCAE1 /* LogoButton.png */; };
 		2DAE8324171759D4006E51A1 /* Title.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D6557901717585D001FCAE1 /* Title.png */; };
 		2DAE8325171759D6006E51A1 /* Title@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D6557911717585D001FCAE1 /* Title@2x.png */; };
-		2DAE8326171759DA006E51A1 /* CAHGenerator-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D655774171757DF001FCAE1 /* CAHGenerator-Info.plist */; };
 		2DAE832817175A06006E51A1 /* WhiteCards.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2DAE832717175A06006E51A1 /* WhiteCards.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2D655769171757DF001FCAE1 /* CAHGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAHGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D520624172F28F200504D47 /* CAHSwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAHSwitchViewController.h; sourceTree = "<group>"; };
+		2D520625172F28F200504D47 /* CAHSwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAHSwitchViewController.m; sourceTree = "<group>"; };
+		2D520626172F28F200504D47 /* CAHSwitchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CAHSwitchViewController.xib; sourceTree = "<group>"; };
+		2D52062A172F33D400504D47 /* CAHTitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAHTitleViewController.h; sourceTree = "<group>"; };
+		2D52062B172F33D400504D47 /* CAHTitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAHTitleViewController.m; sourceTree = "<group>"; };
+		2D52062C172F33D400504D47 /* CAHTitleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CAHTitleViewController.xib; sourceTree = "<group>"; };
+		2D52062F172F358900504D47 /* Title-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Title-568h@2x.png"; sourceTree = "<group>"; };
+		2D520631172F4F2200504D47 /* CAHInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CAHInfoViewController.xib; sourceTree = "<group>"; };
+		2D520633172F526500504D47 /* BackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackArrow.png; sourceTree = "<group>"; };
+		2D655769171757DF001FCAE1 /* CAHGen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAHGen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D65576C171757DF001FCAE1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2D65576E171757DF001FCAE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2D655770171757DF001FCAE1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +72,11 @@
 		2D6557921717585D001FCAE1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2D6557931717585D001FCAE1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2D6557941717585D001FCAE1 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		2D7836B51718C6A2008DA0EF /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		2DA0C1B41721F570001D9863 /* ViewController-5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "ViewController-5.xib"; sourceTree = "<group>"; };
+		2DA0C1B61721FE5C001D9863 /* CAHInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAHInfoViewController.h; sourceTree = "<group>"; };
+		2DA0C1B71721FE5C001D9863 /* CAHInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAHInfoViewController.m; sourceTree = "<group>"; };
+		2DA0C1B81721FE5C001D9863 /* CAHInfoViewController-5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CAHInfoViewController-5.xib"; sourceTree = "<group>"; };
 		2DAE832717175A06006E51A1 /* WhiteCards.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WhiteCards.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,9 +94,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D520620172F283F00504D47 /* InfoView */ = {
+			isa = PBXGroup;
+			children = (
+				2DA0C1B61721FE5C001D9863 /* CAHInfoViewController.h */,
+				2DA0C1B71721FE5C001D9863 /* CAHInfoViewController.m */,
+				2D520631172F4F2200504D47 /* CAHInfoViewController.xib */,
+				2DA0C1B81721FE5C001D9863 /* CAHInfoViewController-5.xib */,
+			);
+			name = InfoView;
+			sourceTree = "<group>";
+		};
+		2D520621172F286700504D47 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				2D65577B171757DF001FCAE1 /* CAHAppDelegate.h */,
+				2D65577C171757DF001FCAE1 /* CAHAppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		2D520622172F287800504D47 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				2D6557921717585D001FCAE1 /* ViewController.h */,
+				2D6557931717585D001FCAE1 /* ViewController.m */,
+				2D6557941717585D001FCAE1 /* ViewController.xib */,
+				2DA0C1B41721F570001D9863 /* ViewController-5.xib */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
+		2D520623172F288C00504D47 /* SwitchView */ = {
+			isa = PBXGroup;
+			children = (
+				2D520624172F28F200504D47 /* CAHSwitchViewController.h */,
+				2D520625172F28F200504D47 /* CAHSwitchViewController.m */,
+				2D520626172F28F200504D47 /* CAHSwitchViewController.xib */,
+			);
+			name = SwitchView;
+			sourceTree = "<group>";
+		};
+		2D520629172F33BB00504D47 /* TitleView */ = {
+			isa = PBXGroup;
+			children = (
+				2D52062A172F33D400504D47 /* CAHTitleViewController.h */,
+				2D52062B172F33D400504D47 /* CAHTitleViewController.m */,
+				2D52062C172F33D400504D47 /* CAHTitleViewController.xib */,
+			);
+			name = TitleView;
+			sourceTree = "<group>";
+		};
 		2D655760171757DF001FCAE1 = {
 			isa = PBXGroup;
 			children = (
+				2D7836B51718C6A2008DA0EF /* .gitignore */,
 				2D655789171757FC001FCAE1 /* Icon.png */,
 				2D65578A171757FC001FCAE1 /* Icon@2x.png */,
 				2D655772171757DF001FCAE1 /* CAHGenerator */,
@@ -84,7 +160,7 @@
 		2D65576A171757DF001FCAE1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2D655769171757DF001FCAE1 /* CAHGenerator.app */,
+				2D655769171757DF001FCAE1 /* CAHGen.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,11 +178,11 @@
 		2D655772171757DF001FCAE1 /* CAHGenerator */ = {
 			isa = PBXGroup;
 			children = (
-				2D65577B171757DF001FCAE1 /* CAHAppDelegate.h */,
-				2D65577C171757DF001FCAE1 /* CAHAppDelegate.m */,
-				2D6557921717585D001FCAE1 /* ViewController.h */,
-				2D6557931717585D001FCAE1 /* ViewController.m */,
-				2D6557941717585D001FCAE1 /* ViewController.xib */,
+				2D520621172F286700504D47 /* Delegate */,
+				2D520629172F33BB00504D47 /* TitleView */,
+				2D520623172F288C00504D47 /* SwitchView */,
+				2D520622172F287800504D47 /* MainView */,
+				2D520620172F283F00504D47 /* InfoView */,
 				2D655773171757DF001FCAE1 /* Supporting Files */,
 			);
 			path = CAHGenerator;
@@ -121,6 +197,8 @@
 				2D65578F1717585D001FCAE1 /* LogoButton.png */,
 				2D6557901717585D001FCAE1 /* Title.png */,
 				2D6557911717585D001FCAE1 /* Title@2x.png */,
+				2D52062F172F358900504D47 /* Title-568h@2x.png */,
+				2D520633172F526500504D47 /* BackArrow.png */,
 				2D655774171757DF001FCAE1 /* CAHGenerator-Info.plist */,
 				2D655775171757DF001FCAE1 /* InfoPlist.strings */,
 				2D655778171757DF001FCAE1 /* main.m */,
@@ -149,7 +227,7 @@
 			);
 			name = CAHGen;
 			productName = CAHGenerator;
-			productReference = 2D655769171757DF001FCAE1 /* CAHGenerator.app */;
+			productReference = 2D655769171757DF001FCAE1 /* CAHGen.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -196,8 +274,15 @@
 				2DAE8323171759D1006E51A1 /* LogoButton.png in Resources */,
 				2DAE8324171759D4006E51A1 /* Title.png in Resources */,
 				2DAE8325171759D6006E51A1 /* Title@2x.png in Resources */,
-				2DAE8326171759DA006E51A1 /* CAHGenerator-Info.plist in Resources */,
 				2DAE832817175A06006E51A1 /* WhiteCards.txt in Resources */,
+				2D7836B61718C6A2008DA0EF /* .gitignore in Resources */,
+				2DA0C1B51721F570001D9863 /* ViewController-5.xib in Resources */,
+				2DA0C1BA1721FE5C001D9863 /* CAHInfoViewController-5.xib in Resources */,
+				2D520628172F28F200504D47 /* CAHSwitchViewController.xib in Resources */,
+				2D52062E172F33D400504D47 /* CAHTitleViewController.xib in Resources */,
+				2D520630172F358900504D47 /* Title-568h@2x.png in Resources */,
+				2D520632172F4F2200504D47 /* CAHInfoViewController.xib in Resources */,
+				2D520634172F526500504D47 /* BackArrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +296,9 @@
 				2D655779171757DF001FCAE1 /* main.m in Sources */,
 				2D65577D171757DF001FCAE1 /* CAHAppDelegate.m in Sources */,
 				2DAE831F17175994006E51A1 /* ViewController.m in Sources */,
+				2DA0C1B91721FE5C001D9863 /* CAHInfoViewController.m in Sources */,
+				2D520627172F28F200504D47 /* CAHSwitchViewController.m in Sources */,
+				2D52062D172F33D400504D47 /* CAHTitleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +377,13 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CAHGenerator/CAHGenerator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					VIEW_DEBUG,
+					"DEBUG=1",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = "CAHGenerator/CAHGenerator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -301,6 +395,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CAHGenerator/CAHGenerator-Prefix.pch";
 				INFOPLIST_FILE = "CAHGenerator/CAHGenerator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

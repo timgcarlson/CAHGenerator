@@ -7,8 +7,29 @@
 //
 
 #import "ViewController.h"
+#import "CAHInfoViewController.h"
+#import "CAHSwitchViewController.h"
 
 @implementation ViewController
+
+- (void)loadView
+{
+    [super viewDidLoad];
+    if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+    {
+        CGSize result = [[UIScreen mainScreen] bounds].size;
+        if(result.height == 480)
+        {
+            // iPhone Classic
+            [[NSBundle mainBundle] loadNibNamed:@"ViewController" owner:self options:nil];
+        }
+        if(result.height == 568)
+        {
+            // iPhone 5
+            [[NSBundle mainBundle] loadNibNamed:@"ViewController-5" owner:self options:nil];
+        }
+    }
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -60,4 +81,10 @@
         [whiteCardField setText:wCard];
     }
 }
+
+- (IBAction)showInfoView:(id)sender
+{
+    [CAHSwitchViewController switchToInfo];
+}
+
 @end

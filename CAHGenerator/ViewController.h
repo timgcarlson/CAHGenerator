@@ -25,5 +25,6 @@
 // Button actions
 - (IBAction)showBlackCard:(id)sender;
 - (IBAction)showWhiteCard:(id)sender;
+- (IBAction)showInfoView:(id)sender;
 
 @end
